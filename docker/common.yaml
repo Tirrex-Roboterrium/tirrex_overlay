@@ -50,7 +50,6 @@ services:
       service: base
     build:
       context: ../
-      network: host
       args:
         FROM_IMAGE: ${FROM_IMAGE:-ghcr.io/tirrex-roboterrium/tirrex_workspace:full-jazzy}
         UID: ${UID}

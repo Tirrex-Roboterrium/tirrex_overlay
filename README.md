@@ -2,10 +2,10 @@ This project is a ROS2 workspace that extends the tirrex_workspace.
 Its aim is to provide a simple way to work with tirrex and TSCF developments without having to
 recompile everytime the packages of the tirrex workspace (there are more than 150 of them).
 To do that, it exploits the concept of
-[underlay and overlay](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#source-the-overlay)
+[underlay and overlay](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#source-the-overlay)
 defined by ROS.
 In this case, we use the following workspaces:
-* /opt/ros/humble (underlay)
+* /opt/ros/jazzy (underlay)
 * /opt/tirrex_ws (underlay)
 * this workspace (overlay)
 
@@ -278,7 +278,7 @@ docker compile build --no-cache compile
 ```
 These libraries will be automatically installed using `rosdep`.
 If you want more information about managing these dependencies, you can read the
-[rosdep tutorial](https://docs.ros.org/en/humble/Tutorials/Intermediate/Rosdep.html).
+[rosdep tutorial](https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Rosdep.html).
 
 
 ## Recommended practices with git
